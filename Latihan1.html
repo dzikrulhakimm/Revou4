@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document revou4</title>
+
+    <!-- internal css -->
+     <style>
+        header {
+            background-color: blue;
+        }
+
+        .main-header {
+            background-color: green;
+        }
+     </style>
+
+     <!-- external css-->
+      <link rel="stylesheet" href="css\styles.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Latihan 1</h1>
+    </header>
+
+    <main>
+        <header class="main-header">
+            <h2>Latihan</h2>
+        </header>
+
+        <header class="main-header" id="unique-main-header">
+            <h2>Latihan</h2>
+        </header>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>    
+    </main>
+
+    <!-- inline css --> 
+    <footer style="background-color: red;">
+        <span>Footer</span>
+    </footer>
 </body>
 </html>
